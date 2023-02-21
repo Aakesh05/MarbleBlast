@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8122621659225304306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8122621659225304308}
+  - component: {fileID: 8122621659225304307}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8122621659225304308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8122621659225304306}
+  m_LocalRotation: {x: 0.13439433, y: -0, z: -0, w: 0.99092793}
+  m_LocalPosition: {x: 70.98, y: 26.42, z: -90.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8122621659225304307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8122621659225304306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f096b8b88d61f954b9341bde79eb159b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Rolling Sound
+    clip: {fileID: 8300000, guid: 967a52bed4ecb29458f370afcfd27173, type: 3}
+    volume: 20
+    pitch: 3
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump Sound
+    clip: {fileID: 8300000, guid: 576d2991ed5167a47add55b3289231c9, type: 3}
+    volume: 5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Death Sound
+    clip: {fileID: 8300000, guid: 9054ef2ff635fe947825ab5215e8c71c, type: 3}
+    volume: 10
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Win Effect
+    clip: {fileID: 8300000, guid: 881124a00b4883445999f91103628f6c, type: 3}
+    volume: 5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Game OST
+    clip: {fileID: 8300000, guid: 00b1181b09461f244a03291cb3bd5e87, type: 3}
+    volume: 3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Main Menu OST
+    clip: {fileID: 8300000, guid: f47e17ac88f80234eb1fd710ce0e3afa, type: 3}
+    volume: 3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
